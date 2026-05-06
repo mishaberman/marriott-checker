@@ -39,4 +39,4 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
-        run: python marriott_points_watch.py --debug
+        run: python marriott_points_watch.py --test-email
